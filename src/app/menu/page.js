@@ -1,6 +1,6 @@
 // import bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
-import HeaderTable from '../components/Menus/headerTable'
+import HeaderTable from '../components/Menus/HeaderTable'
 import OrderFood from '../components/Menus/OrderFood'
 import BodyTable from '../components/Menus/BodyTable'
 import InputEmail from '../components/Menus/InputEmail'
