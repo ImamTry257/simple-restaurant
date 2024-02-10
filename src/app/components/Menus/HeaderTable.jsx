@@ -1,4 +1,4 @@
-const HeaderTable = ({ contentHeader }) => {
+const HeaderTable = () => {
     return (
         <thead>
             <tr>
