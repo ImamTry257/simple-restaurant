@@ -45,8 +45,8 @@ const OrderFood = () => {
     }
 
     const createOrder = async (paramOrder) => {
-        console.log(paramOrder)
-        let urlCreateOrder = 'http://localhost:3002/api/orders/store'
+        console.log(paramOrder, process.env.BASE_URL_API)
+        let urlCreateOrder = 'http://localhost:3010/api/orders/store'
 
         axios.post(urlCreateOrder, paramOrder)
             .then((response) => {

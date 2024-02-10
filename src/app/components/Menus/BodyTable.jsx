@@ -1,12 +1,12 @@
 import RowList from "./RowList"
 
 const BodyTable = async () => {
-    const base_url = 'http://localhost:3002/api/menus'
+    const base_url_api = process.env.BASE_URL_API
+    const base_url = base_url_api + '/api/menus'
 
     const fetchData = await fetch(base_url, { cache: 'no-cache' })
     const responseData = await fetchData.json()
     const listMenu = responseData.data.menu
-    console.log(listMenu)
 
     return (
         <>
