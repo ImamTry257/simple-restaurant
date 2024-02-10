@@ -1,0 +1,3 @@
+for build
+npm run build
+npm start for running build project

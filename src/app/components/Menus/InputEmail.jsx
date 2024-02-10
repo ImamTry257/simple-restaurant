@@ -7,6 +7,7 @@ const InputEmail = () => {
     return (
         <>
             <div className="pb-3 col-12">
+                <p>{new Date().toLocaleTimeString()}</p>
                 <input type="email" className="form form-control w-50" name="email" id="email-order" placeholder="please type your email here" onChange={handleChange} />
             </div>
         </>
