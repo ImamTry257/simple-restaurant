@@ -11,7 +11,7 @@ const Page = () => {
         <main className="container">
             <div className="row">
                 <div className='col-12 py-5'>
-                    <h2>Simple Restaurant</h2>
+                    <h2>Demo Simple Restaurant</h2>
                 </div>
 
                 <div className='col-12'>
