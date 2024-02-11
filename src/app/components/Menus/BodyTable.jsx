@@ -16,7 +16,7 @@ const BodyTable = async () => {
                         <td>{index + 1}</td>
                         <td>{menu.name}</td>
                         <td>Rp. {menu.price} </td>
-                        <td><input type="number" className="input-food-order" id={'menu-' + menu.id} placeholder="enter count your order" />
+                        <td><input type="number" className="input-food-order" id={'menu-' + menu.id} placeholder="enter count item" />
                         </td>
                     </RowList>
                 ))}
