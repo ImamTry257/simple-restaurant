@@ -1,3 +1,8 @@
 for build
 npm run build
 npm start for running build project
+
+
+for db mysql docker
+docker pull mysq:5.7
+docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=YOUR_PASSWORD -p 3306:3306 mysql:5.7
